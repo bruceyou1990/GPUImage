@@ -1,6 +1,6 @@
 #import "ColorTrackingViewController.h"
 #import <QuartzCore/QuartzCore.h>
-
+//bruceyou 2016.1.11
 @implementation ColorTrackingViewController
 
 #pragma mark -
@@ -60,7 +60,7 @@
     [positionFilter setFloat:thresholdSensitivity forUniformName:@"threshold"];
     [positionFilter setFloatVec3:thresholdColor forUniformName:@"inputColor"];
     
-//    CGSize videoPixelSize = filteredVideoView.bounds.size;
+// bruceyou 2016 1 11    CGSize videoPixelSize = filteredVideoView.bounds.size;
 //    videoPixelSize.width *= [filteredVideoView contentScaleFactor];
 //    videoPixelSize.height *= [filteredVideoView contentScaleFactor];
     
